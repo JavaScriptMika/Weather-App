@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Weather Forecast</title>
+  <link rel="stylesheet" href="weatherAPI.css">
+  <script src="WeatherApi.js" defer></script>
+</head>
+<body>
+  <div class="app">
+    <div class="start-screen">
+      <div>
+        <h1 class="title">Weather<br><span>ForeCasts</span></h1>
+        <input id="enter-city"type="text" placeholder="Enter your City!">
+        </div>
+      <button id="getWeatherBtn">Start</button>
+    </div>
+
+    <div class="weather-screen hidden">
+      <div class="main-info">
+        <div class="big-icon">🌦️</div>
+        <h2 id="temp">--°C</h2>
+        <p id="condition">Loading...</p>
+        <p id="range">Max: --°C | Min: --°C</p>
+      </div>
+
+      <div class="forecast-box">
+        <h3>7-Days Forecasts</h3>
+        <div class="forecast">
+          <div class="day">Mon<br>19°C</div>
+          <div class="day">Tue<br>18°C</div>
+          <div class="day">Wed<br>18°C</div>
+          <div class="day">Thu<br>19°C</div>
+        </div>
+      </div>
+
+      <div class="extra-info">
+        <div class="info-box">
+          <h4>Air Quality</h4>
+          <p>3 - Low Health Risk</p>
+        </div>
+        <div class="info-box">
+          <h4>Sunrise & UV</h4>
+          <p>Sunrise: <span id="sunrise">--:--</span></p>
+          <p>UV Index: 4 Moderate</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

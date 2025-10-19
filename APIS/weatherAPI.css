@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(160deg, #6a11cb, #2575fc);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.app {
+  width: 340px;
+  text-align: center;
+}
+
+.start-screen, .weather-screen {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 25px;
+  padding: 35px 20px;
+  box-shadow: 0 0 25px rgba(0,0,0,0.25);
+}
+
+.weather-icon-placeholder {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 2.2rem;
+  line-height: 1.3;
+  font-weight: 600;
+}
+
+.title span {
+  color: #FFD43B;
+}
+
+button {
+  margin-top: 25px;
+  background: #FFD43B;
+  color: #222;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #ffcf33;
+}
+
+.hidden {
+  display: none;
+}
+
+.main-info {
+  margin-top: 15px;
+}
+
+.big-icon {
+  font-size: 4rem;
+  margin-bottom: 10px;
+}
+
+.forecast-box {
+  margin-top: 25px;
+}
+
+.forecast {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.day {
+  background: rgba(255,255,255,0.15);
+  border-radius: 12px;
+  padding: 10px;
+  width: 60px;
+}
+
+.extra-info {
+  margin-top: 25px;
+}
+
+.info-box {
+  background: rgba(255,255,255,0.15);
+  border-radius: 15px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
